@@ -34,4 +34,3 @@ async function main() {
 	}
 	console.log(num);
 }main();
-
