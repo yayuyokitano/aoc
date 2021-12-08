@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "strict": true
+  },
+  "include": [
+    "src/**/*",
+    "src/inputs/**/*.txt"
+  ],
+	"exclude": [],
+  "hooks": [
+    "copy-files"
+  ]
+}
